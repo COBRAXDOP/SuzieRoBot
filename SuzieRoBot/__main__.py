@@ -74,14 +74,14 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Hellow 🙋‍♀ My name is [Suzie](https://telegra.ph/file/152074fd0e34541dcdc4b.jpg)
+Hellow 🙋‍♀ My name is [Zoya](https://telegra.ph/file/152074fd0e34541dcdc4b.jpg)
 I'm here to help you manage your groups! Hit` *📚Commands* `button below to find out more about how to use me to my full potential.
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ADD Suzie TO YOUR GROUP ➕️", url="t.me/SuzieRoBot?startgroup=true"),
+            text="➕️ ADD Zoya TO YOUR GROUP ➕️", url="t.me/SuzieRoBot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="ℹ️ ABOUT", callback_data="Suzie_"),
@@ -89,9 +89,9 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="💾 SOURCE", callback_data="source_"),
+            text="🔥 OWNER", url=https://t.me/Xd_Lif"
         InlineKeyboardButton(
-            text="👥 SUPPORT", url="https://t.me/SuzieRoBot_Support"
+            text="👥 SUPPORT", url="https://t.me/LOVExWORD"
         ),
     ],
 ]
@@ -346,7 +346,7 @@ def Suzie_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "Suzie_":
         query.message.edit_text(
-            text=""" ℹ️ I'm *Suzie*, a powerful group management bot built to help you manage your group easily.
+            text=""" ℹ️ I'm *Zoya*, a powerful group management bot built to help you manage your group easily.
                  ❍ I can restrict users.
                  ❍ I can greet users with customizable welcome messages and even set a group's rules.
                  ❍ I have an advanced anti-flood system.
@@ -354,8 +354,8 @@ def Suzie_about_callback(update: Update, context: CallbackContext):
                  ❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  ❍ I check for admins' permissions before executing any command and more stuffs
                  \n_Suzie's licensed under the GNU General Public License v3.0_
-                 Here is the [💾Repository](https://github.com/W2HGalaxy-OP/SuzieRoBot).
-                 If you have any question about Suzie, let us know at @SuzieRoBot_Support.""",
+                 Here is the [⚡LEGEND](https://t.me/aish_jaan_0).
+                 If you have any question about Zoya, let us know at @LOVExWORD.""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -381,8 +381,8 @@ def Source_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..🤗 I'm *Suzie*
-                 \nHere is the [Source Code](https://github.com/W2HGalaxy-OP/SuzieRoBot) .""",
+            text=""" Hi..🤗 I'm *Zoya*
+                 \nHere is the [OWNER](https://t.me/Xd_Lif"
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=False,
             reply_markup=InlineKeyboardMarkup(
